@@ -14,6 +14,12 @@ process and communicates with it through the OpenRGB SDK protocol.
 - Source for the bundled version: <https://codeberg.org/OpenRGB/OpenRGB/src/tag/release_1.0>
 - Source archive: <https://codeberg.org/OpenRGB/OpenRGB/archive/release_1.0.zip>
 
+**Written source offer:** For at least three years after this binary release,
+Edvinas Giniotis offers any third party a complete machine-readable copy of
+the corresponding source code for the bundled OpenRGB 1.0 build, for no more
+than the reasonable cost of physically providing the source. Submit a request
+through the [OpenRGB source request form](https://github.com/G1NiS/gin-control-releases/issues/new?template=source_code_request.yml).
+
 The OpenRGB Windows package also contains the following separately licensed
 runtime components:
 

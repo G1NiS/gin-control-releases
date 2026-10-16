@@ -1,0 +1,31 @@
+name: OpenRGB source code request
+description: Request the corresponding source for the bundled OpenRGB build
+title: "[Source request]: OpenRGB 1.0"
+labels:
+  - source-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to request the complete corresponding source for the OpenRGB build distributed with GIN Control.
+  - type: input
+    id: gin-version
+    attributes:
+      label: GIN Control version
+      placeholder: "1.0.1"
+    validations:
+      required: true
+  - type: input
+    id: delivery-contact
+    attributes:
+      label: Delivery contact
+      description: Provide an email address or another private contact method. If you do not want to post it publicly, state that and the repository owner will arrange a private exchange.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Request details
+      description: Include the installer file name and any preferred machine-readable delivery format.
+    validations:
+      required: true

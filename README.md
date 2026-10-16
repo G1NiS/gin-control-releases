@@ -23,6 +23,9 @@ The installer is not code-signed yet. Windows SmartScreen may show a warning.
 If you downloaded the installer from this repository, choose **More info** and
 then **Run anyway** to continue.
 
+The installer displays the beta end-user license and requires acceptance
+before installation continues.
+
 ## What it controls
 
 - Motherboard, RAM, ARGB, GPU, keyboard, mouse, headset, and other supported
