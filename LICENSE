@@ -1,0 +1,89 @@
+GIN CONTROL BETA END-USER LICENSE AGREEMENT
+
+Copyright (c) 2026 Edvinas Giniotis. All rights reserved.
+
+This End-User License Agreement (the "Agreement") governs your use of the
+GIN Control application and installer (the "Software"). Third-party
+components included with the Software are licensed separately as described
+in THIRD-PARTY-NOTICES.md; this Agreement does not limit rights granted under
+those third-party licenses.
+
+1. Beta license
+
+Subject to this Agreement, the copyright owner grants you a limited,
+revocable, non-exclusive, non-transferable license to install and use the
+Software on devices that you own or control solely for personal,
+non-commercial purposes during the beta period.
+
+2. Restrictions
+
+Except where applicable law expressly permits otherwise, you may not:
+
+- copy, redistribute, publish, sublicense, sell, rent, lease, host, or
+  otherwise make the Software available to another person;
+- use the Software for any commercial, professional, or revenue-generating
+  purpose;
+- reverse engineer, decompile, disassemble, or attempt to derive the source
+  code of the Software;
+- bypass technical restrictions or security features; or
+- remove or alter copyright, license, trademark, or attribution notices.
+
+You may make one backup copy solely for your own permitted use.
+
+3. Ownership
+
+The Software is licensed, not sold. The copyright owner retains all rights,
+title, and interest in and to the Software that are not expressly granted by
+this Agreement. No rights to trademarks or branding are granted.
+
+4. Hardware and fan-control risk
+
+The Software controls computer lighting, fan speeds, sensors, and related
+hardware. Incorrect configuration, unsupported hardware, software defects,
+sensor failures, or interrupted operation may cause overheating, instability,
+data loss, reduced hardware life, or hardware damage. You are responsible for
+maintaining adequate cooling, monitoring temperatures, keeping backups, and
+deciding whether the Software is suitable for your hardware. Use the Software
+at your own risk.
+
+5. Beta software and updates
+
+The Software is a beta release and may contain errors, incomplete features,
+or compatibility problems. Features may change or be removed. Updates may be
+subject to revised terms.
+
+6. No warranty
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
+"AS IS" AND "AS AVAILABLE," WITH ALL FAULTS AND WITHOUT WARRANTIES OF ANY
+KIND, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, ACCURACY,
+RELIABILITY, OR THAT THE SOFTWARE WILL BE ERROR-FREE OR SAFE FOR ANY
+PARTICULAR HARDWARE.
+
+7. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT OWNER WILL
+NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY,
+OR PUNITIVE DAMAGES, OR FOR LOSS OF DATA, PROFITS, REVENUE, USE, OR HARDWARE,
+ARISING FROM OR RELATED TO THE SOFTWARE OR THIS AGREEMENT, EVEN IF ADVISED OF
+THE POSSIBILITY OF SUCH DAMAGES. TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE
+TOTAL LIABILITY FOR ALL CLAIMS WILL NOT EXCEED THE AMOUNT YOU PAID FOR THE
+SOFTWARE.
+
+Some jurisdictions do not allow certain warranty exclusions or liability
+limitations, so some of the above terms may not apply to you.
+
+8. Termination
+
+This license terminates automatically if you breach this Agreement. Upon
+termination, you must stop using the Software and delete all copies in your
+possession or control. Sections 3, 4, 6, 7, and 9 survive termination.
+
+9. General
+
+If any provision of this Agreement is held unenforceable, the remaining
+provisions remain in effect. A failure to enforce a provision is not a waiver
+of the right to enforce it later. This Agreement is the entire agreement
+concerning the proprietary Software unless the copyright owner provides
+separate written terms.

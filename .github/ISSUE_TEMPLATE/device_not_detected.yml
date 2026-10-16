@@ -1,0 +1,79 @@
+name: Device not detected
+description: Report lighting or fan hardware that GIN Control does not show
+title: "[Device]: "
+labels:
+  - device-support
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide exact hardware identifiers. Do not post serial numbers or other private identifiers.
+  - type: input
+    id: app-version
+    attributes:
+      label: GIN Control version
+      placeholder: "1.0.1"
+    validations:
+      required: true
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      placeholder: "Windows 10 22H2 or Windows 11 24H2"
+    validations:
+      required: true
+  - type: input
+    id: motherboard
+    attributes:
+      label: Motherboard
+      placeholder: "Manufacturer and exact model"
+    validations:
+      required: true
+  - type: input
+    id: device-name
+    attributes:
+      label: Device name
+      placeholder: "Manufacturer and exact model"
+    validations:
+      required: true
+  - type: input
+    id: connection
+    attributes:
+      label: Connection method
+      placeholder: "USB, ARGB header, wireless receiver, motherboard fan header, etc."
+    validations:
+      required: true
+  - type: input
+    id: usb-id
+    attributes:
+      label: USB ID
+      description: If applicable, provide the VID and PID from Windows Device Manager, for example VID_0B05&PID_1ACE.
+      placeholder: "VID_####&PID_#### or not applicable"
+    validations:
+      required: true
+  - type: textarea
+    id: devices-page
+    attributes:
+      label: What the Devices page shows
+      description: List related entries and statuses, or attach a screenshot with serial numbers hidden.
+    validations:
+      required: true
+  - type: textarea
+    id: other-software
+    attributes:
+      label: Detection in other software
+      description: Say whether OpenRGB or the manufacturer's software detects the device, including versions if known.
+  - type: textarea
+    id: attempts
+    attributes:
+      label: What you already tried
+      description: Include rescans, reconnects, reboots, or service restarts.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues for this device.
+          required: true
+        - label: I removed serial numbers and other private identifiers from screenshots and logs.
+          required: true

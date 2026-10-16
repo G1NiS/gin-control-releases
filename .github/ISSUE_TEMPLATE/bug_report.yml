@@ -1,0 +1,74 @@
+name: Bug report
+description: Report a reproducible problem in GIN Control
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the beta. Do not include passwords, account details, or other private information.
+  - type: input
+    id: app-version
+    attributes:
+      label: GIN Control version
+      placeholder: "1.0.1"
+    validations:
+      required: true
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 24H2, build 26100"
+    validations:
+      required: true
+  - type: input
+    id: motherboard
+    attributes:
+      label: Motherboard
+      placeholder: "Manufacturer and exact model"
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Relevant hardware
+      description: List the fans, controllers, RGB devices, and connection method involved.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Select ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Screenshots or diagnostics
+      description: Add relevant screenshots or sanitized log details. You can drag files into this field.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues for the same problem.
+          required: true
+        - label: I understand this is beta software and fan-control problems can affect hardware temperatures.
+          required: true
