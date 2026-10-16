@@ -1,2 +1,8 @@
 blank_issues_enabled: false
-contact_links: []
+contact_links:
+  - name: Questions and general feedback
+    url: https://github.com/G1NiS/gin-control-releases/discussions
+    about: Ask a question, share a successful hardware test, or discuss an idea.
+  - name: Private security report
+    url: https://github.com/G1NiS/gin-control-releases/security/advisories/new
+    about: Report a security vulnerability without disclosing it publicly.

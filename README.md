@@ -16,6 +16,20 @@ with profiles.
 
 [Download the latest Windows installer](https://github.com/G1NiS/gin-control-releases/releases/latest/download/GIN-Control-1.0.1-x64-setup.exe)
 
+Current release: **GIN Control 1.0.1 Beta**
+
+SHA-256:
+
+```text
+A5D1ACEF8B6F73DF2FEDDE0876315D0AF0E4184A2A9538ABDFE9DE00AAB868BE
+```
+
+You can verify the downloaded installer in PowerShell:
+
+```powershell
+Get-FileHash .\GIN-Control-1.0.1-x64-setup.exe -Algorithm SHA256
+```
+
 Requirements: Windows 10 or Windows 11, x64. The installer includes the
 required GIN Control service and runtime components.
 
@@ -44,13 +58,24 @@ before installation continues.
 
 ![Settings page](screenshots/settings.png)
 
-## Report a problem
+## Feedback and support
 
-Use the [issue forms](https://github.com/G1NiS/gin-control-releases/issues/new/choose)
-and choose the form that best matches the problem. Include the GIN Control
-version, Windows version, motherboard, affected device, and exact steps to
-reproduce the issue. Do not post passwords, account details, or other private
-information in logs or screenshots.
+GIN Control is in public beta. Reports from different motherboards, fan
+controllers, and RGB devices are especially useful.
+
+- [Report a reproducible bug](https://github.com/G1NiS/gin-control-releases/issues/new?template=bug_report.yml)
+- [Report an undetected device](https://github.com/G1NiS/gin-control-releases/issues/new?template=device_not_detected.yml)
+- [Suggest a feature](https://github.com/G1NiS/gin-control-releases/issues/new?template=feature_request.yml)
+- [Ask a question or share test results](https://github.com/G1NiS/gin-control-releases/discussions)
+
+Include the GIN Control version, Windows version, motherboard, affected device,
+and exact steps to reproduce the issue. Before attaching logs or screenshots,
+remove passwords, account details, serial numbers, and other private
+information. See the [feedback guide](CONTRIBUTING.md) for a complete checklist.
+
+Report security vulnerabilities privately through
+[GitHub Security Advisories](https://github.com/G1NiS/gin-control-releases/security/advisories/new),
+not in a public issue.
 
 ## Uninstall
 
